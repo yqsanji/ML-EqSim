@@ -1,5 +1,8 @@
 # Kaggle 
 # 'all.csv' choose random(mu_s, mu_d, dc) each has 5 random seed
+# Usage of RandomForestRegressor in Chinese see
+# https://runebook.dev/zh-CN/docs/scikit_learn/modules/generated/sklearn.tree.decisiontreeregressor
+
 from sklearn.ensemble import RandomForestRegressor
 import pandas as pd
 import numpy as np
